@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diff-surfel-rasterization"
+dependencies = [
+    "torch"
+]
+requires-python = ">=3.8"
+authors = []
+maintainers = []
+description = ""
+readme = "README.md"
