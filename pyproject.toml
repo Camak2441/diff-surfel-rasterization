@@ -1,12 +1,10 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "wheel", "torch"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "diff-surfel-rasterization"
-dependencies = [
-    "torch"
-]
+dependencies = []
 requires-python = ">=3.8"
 authors = []
 maintainers = []
