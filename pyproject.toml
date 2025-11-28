@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools", "wheel", "torch"]
+requires = ["setuptools", "torch", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
+dynamic = ["version"]
 name = "diff-surfel-rasterization"
-version = "0.0.1"
 dependencies = []
 requires-python = ">=3.8"
 authors = []
